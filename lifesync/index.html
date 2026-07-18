@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LifeSync | Ian Hayes</title>
+    <meta name="description" content="LifeSync is Ian Hayes's personal macOS setup for bringing life data and AI-assisted planning into one private workspace.">
+    <link rel="canonical" href="https://ian-hayes.com/lifesync/">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="../">Ian Hayes</a>
+      <nav aria-label="LifeSync navigation">
+        <a href="../">Home</a>
+        <a href="mailto:hayesian66@gmail.com">Email</a>
+      </nav>
+    </header>
+
+    <main class="product-page">
+      <section class="product-intro section-shell">
+        <a class="back-link" href="../">Back to products</a>
+        <p class="eyebrow">Personal project</p>
+        <h1>LifeSync</h1>
+        <p class="product-lead">LifeSync is a personal setup I built to track the different parts of my life and give an AI assistant the context it needs to offer useful next steps. It combines health, money, calendar, school, projects, goals, journal entries, and connected services in one private workspace.</p>
+        <p class="status-line">Current status: configured for my personal use on macOS. It is not available as a public download yet.</p>
+      </section>
+
+      <section class="section-shell product-detail-section">
+        <h2>What it does</h2>
+        <div class="detail-grid">
+          <div><h3>Brings context together</h3><p>Normalizes information from WHOOP, Plaid, Google Calendar, Canvas, goals, projects, and journal entries so it can be viewed and reasoned over in one place.</p></div>
+          <div><h3>Supports planning</h3><p>Uses current priorities and personal context to help identify the next useful action instead of acting as a generic chatbot.</p></div>
+          <div><h3>Keeps actions controlled</h3><p>External writes, including calendar actions, are recorded and require approval before they run. Credentials remain outside the model context.</p></div>
+        </div>
+      </section>
+
+      <section class="section-shell product-detail-section">
+        <h2>How it is built</h2>
+        <dl class="technical-list">
+          <div><dt>Interface</dt><dd>React Native, Expo, and TypeScript</dd></div>
+          <div><dt>Backend</dt><dd>FastAPI, Python, SQLAlchemy, SQLite, and Postgres</dd></div>
+          <div><dt>AI</dt><dd>A provider gateway supporting ChatGPT/Codex, OpenAI, Anthropic, and local Ollama models</dd></div>
+          <div><dt>Connected context</dt><dd>WHOOP, Plaid, Google Calendar, Canvas, email, and first-party data</dd></div>
+        </dl>
+      </section>
+
+      <section class="section-shell product-detail-section">
+        <h2>Who a future release would be for</h2>
+        <p class="detail-copy">The planned version is for mid-to-high technical macOS users who are comfortable installing local software, connecting their own services, managing credentials, and reviewing configuration. It is intended as a personal setup, not a hosted service that stores everyone's life data in one shared system.</p>
+      </section>
+
+      <section class="section-shell product-detail-section availability">
+        <h2>Availability and ChatGPT</h2>
+        <div>
+          <p class="detail-copy">LifeSync currently uses an authenticated ChatGPT/Codex path when it is configured to use my ChatGPT subscription. A future downloadable version would require each person to use their own eligible ChatGPT subscription and sign-in. The installer, onboarding, and public distribution process have not been built yet, so there is no download link today.</p>
+          <a class="text-action" href="mailto:hayesian66@gmail.com?subject=LifeSync">Ask me about LifeSync</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p>LifeSync by Ian Hayes</p>
+      <a href="../">Back to ian-hayes.com</a>
+    </footer>
+  </body>
+</html>
